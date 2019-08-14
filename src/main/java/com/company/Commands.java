@@ -7,7 +7,7 @@ public class Commands {
         while (true) {
             Scanner scan = new Scanner(System.in);
             String commands = scan.nextLine();
-            if ("Help".equals(commands))
+            if ("Help".equalsIgnoreCase(commands))
                 System.out.println("\n" +
                         "Вывод справки по командам: help\n" +
                         "Вывод новых задач: list -s new\n" +
@@ -38,18 +38,4 @@ public class Commands {
     }
 }
 
-
-//    public void getList() {
-//        while (true) {
-//            Scanner scan = new Scanner(System.in);
-//            System.out.print("Какую комманду выполнить ?");
-//            String list = scan.nextLine();
-//            if ("List".equals(list))
-//                System.out.println("111");
-//            else {
-//                System.out.println("Неизвестная команда 2 !");
-//            }
-//        }
-//    }
-//}
 

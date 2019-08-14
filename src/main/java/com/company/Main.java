@@ -15,8 +15,8 @@ public class Main {
                     "                      |_|                                                  \n"+
                     "Для получения списка команд введите Help: \n"
             );
-            com.company.Commands ourcat = new Commands();
-            ourcat.getHelp();
+            com.company.Commands first = new Commands();
+            first.getHelp();
         }
 
     }
