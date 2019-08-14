@@ -6,7 +6,6 @@ public class Commands {
     public void getHelp() {
         while (true) {
             Scanner scan = new Scanner(System.in);
-            System.out.print("Для получения списка команд введите Help: \n");
             String commands = scan.nextLine();
             if ("Help".equals(commands))
                 System.out.println("\n" +

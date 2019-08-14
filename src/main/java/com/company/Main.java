@@ -13,11 +13,11 @@ public class Main {
                     "|_____|___/_|_| |_| |_| .__/|_|\\___|______\\__,_|_.__/     |_|\\___||___/\\__|\n" +
                     "                      | |                                                  \n" +
                     "                      |_|                                                  \n"+
-                    "Welcome to ToDo List "
+                    "Для получения списка команд введите Help: \n"
             );
+            com.company.Commands ourcat = new Commands();
+            ourcat.getHelp();
         }
 
-        com.company.Commands ourcat = new Commands();
-        ourcat.getHelp();
     }
 }
