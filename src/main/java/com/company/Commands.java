@@ -3,18 +3,54 @@ package com.company;
 import java.util.Scanner; // импорт сканера
 
 public class Commands {
-    public void getHelp(){
-        System.out.print("Для получения списка командв введите Help: \n");
-        Scanner scan = new Scanner(System.in);
-        String number = scan.nextLine();
-        System.out.println ("\n" +
-                "Вывод справки по командам: help\n" +
-                "Вывод новых задач: list -s new\n" +
-                "Вывод выполненных задач: list -s done\n" +
-                "Вывод всех задач: list\n" +
-                "Пометить задачу как выполненную: complete\n" +
-                "Добавить новую задачу: new\n" +
-                "Редактировать: edit\n" +
-                "Удалить: remove\n");
+    public void getHelp() {
+        while (true) {
+            Scanner scan = new Scanner(System.in);
+            System.out.print("Для получения списка команд введите Help: \n");
+            String commands = scan.nextLine();
+            if ("Help".equals(commands))
+                System.out.println("\n" +
+                        "Вывод справки по командам: help\n" +
+                        "Вывод новых задач: list -s new\n" +
+                        "Вывод выполненных задач: list -s done\n" +
+                        "Вывод всех задач: list\n" +
+                        "Пометить задачу как выполненную: complete\n" +
+                        "Добавить новую задачу: new\n" +
+                        "Редактировать: edit\n" +
+                        "Удалить: remove\n");
+            else if ("list -s new".equals(commands))
+                System.out.println("Тут будет Вывод новых задач");
+            else if ("list -s done".equals(commands))
+                System.out.println("Тут будет Вывод выполненных задач");
+            else if ("list".equals(commands))
+                System.out.println("Тут будет список задач");
+            else if ("complete".equals(commands))
+                System.out.println("Тут будет функция Пометить задачу как выполненную");
+            else if ("new".equals(commands))
+                System.out.println("Тут будет функция Добавить новую задачу");
+            else if ("edit".equals(commands))
+                System.out.println("Тут будет функция Редактировать задачу");
+            else if ("remove".equals(commands))
+                System.out.println("Тут будет функция Удалить задачу");
+            else {
+                System.out.println("Неизвестная команда !");
+            }
+        }
     }
 }
+
+
+//    public void getList() {
+//        while (true) {
+//            Scanner scan = new Scanner(System.in);
+//            System.out.print("Какую комманду выполнить ?");
+//            String list = scan.nextLine();
+//            if ("List".equals(list))
+//                System.out.println("111");
+//            else {
+//                System.out.println("Неизвестная команда 2 !");
+//            }
+//        }
+//    }
+//}
+
