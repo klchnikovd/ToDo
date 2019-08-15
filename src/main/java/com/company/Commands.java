@@ -1,7 +1,6 @@
 package com.company;
 
 import java.util.Scanner; // импорт сканера
-
 public class Commands {
     public void getHelp() {
         while (true) {
