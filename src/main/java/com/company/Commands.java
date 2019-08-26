@@ -16,19 +16,19 @@ public class Commands {
                         "Добавить новую задачу: new\n" +
                         "Редактировать: edit\n" +
                         "Удалить: remove\n");
-            else if ("list -s new".equals(commands))
+            else if ("list -s new".equalsIgnoreCase(commands))
                 System.out.println("Тут будет Вывод новых задач");  //Еще не сделал
-            else if ("list -s done".equals(commands))
+            else if ("list -s done".equalsIgnoreCase(commands))
                 System.out.println("Тут будет Вывод выполненных задач"); //Еще не сделал
-            else if ("list".equals(commands))
+            else if ("list".equalsIgnoreCase(commands))
                 com.company.TaskList.main(null);
-            else if ("complete".equals(commands))
+            else if ("complete".equalsIgnoreCase(commands))
                 System.out.println("Тут будет функция Пометить задачу как выполненную"); //Еще не сделал
-            else if ("new".equals(commands))
+            else if ("new".equalsIgnoreCase(commands))
                 System.out.println("Тут будет функция Добавить новую задачу"); //Еще не сделал
-            else if ("edit".equals(commands))
+            else if ("edit".equalsIgnoreCase(commands))
                 System.out.println("Тут будет функция Редактировать задачу"); //Еще не сделал
-            else if ("remove".equals(commands))
+            else if ("remove".equalsIgnoreCase(commands))
                 System.out.println("Тут будет функция Удалить задачу"); //Еще не сделал
             else {
                 System.out.println("Неизвестная команда !");
