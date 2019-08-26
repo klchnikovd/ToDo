@@ -31,7 +31,7 @@ public class TaskList {
 
                 Node nNode = nList.item(temp);
 
-                System.out.println("\nCurrent Element :" + nNode.getNodeName());
+                System.out.println("----------------------------");
 
                 if (nNode.getNodeType() == Node.ELEMENT_NODE) {
 
