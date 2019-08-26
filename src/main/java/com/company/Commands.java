@@ -21,7 +21,7 @@ public class Commands {
             else if ("list -s done".equals(commands))
                 System.out.println("Тут будет Вывод выполненных задач"); //Еще не сделал
             else if ("list".equals(commands))
-                System.out.println("Тут будет список задач"); //Еще не сделал
+                com.company.TaskList.main(null);
             else if ("complete".equals(commands))
                 System.out.println("Тут будет функция Пометить задачу как выполненную"); //Еще не сделал
             else if ("new".equals(commands))
@@ -36,5 +36,3 @@ public class Commands {
         }
     }
 }
-
-

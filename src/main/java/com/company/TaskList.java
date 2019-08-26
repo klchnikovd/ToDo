@@ -37,7 +37,7 @@ public class TaskList {
 
                     Element eElement = (Element) nNode;
 
-                    System.out.println("Номер задачи : " + eElement.getAttribute("id"));
+                    System.out.println("Номер задачи : " + eElement.getElementsByTagName("id").item(0).getTextContent());
                     System.out.println("Заголовок задачи : " + eElement.getElementsByTagName("caption").item(0).getTextContent());
                     System.out.println("Описание задачи : " + eElement.getElementsByTagName("Description").item(0).getTextContent());
                     System.out.println("Приоритет : " + eElement.getElementsByTagName("Priority").item(0).getTextContent());
