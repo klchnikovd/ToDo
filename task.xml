@@ -1,0 +1,11 @@
+<ToDoList>
+	<Task>
+	    <id>Jlby</id>
+		<caption>Заголовок задачи</caption>
+		<Description>Описание задачи</Description>
+		<Priority>100</Priority>
+		<Deadline>2019-08-26</Deadline>
+		<Status>done</Status>
+		<Complete>2019-08-26</Complete>
+	</Task>
+</ToDoList>
