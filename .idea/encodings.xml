@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$/src/main/java/com/company/Commands.java" charset="UTF-16" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/company/ConsoleColors.java" charset="UTF-16" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/company/JaxbTest.java" charset="UTF-16" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/company/Main.java" charset="UTF-16" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/company/TaskList.java" charset="UTF-16" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/company/Welcome.java" charset="windows-1251" />
+    <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
