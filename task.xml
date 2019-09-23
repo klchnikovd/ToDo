@@ -1,6 +1,6 @@
 <ToDoList>
 	<Task>
-	    <id>1</id>
+		<id>1</id>
 		<caption>Заголовок задачи</caption>
 		<Description>Описание задачи</Description>
 		<Priority>100</Priority>
@@ -8,8 +8,8 @@
 		<Status>done</Status>
 		<Complete>2019-08-26</Complete>
 	</Task>
-		<Task>
-	    <id>2</id>
+	<Task>
+		<id>2</id>
 		<caption>Заголовок задачи</caption>
 		<Description>Описание задачи</Description>
 		<Priority>100</Priority>
@@ -17,8 +17,8 @@
 		<Status>done</Status>
 		<Complete>2019-08-26</Complete>
 	</Task>
-		<Task>
-	    <id>3</id>
+	<Task>
+		<id>3</id>
 		<caption>Заголовок задачи</caption>
 		<Description>Описание задачи</Description>
 		<Priority>100</Priority>
@@ -26,8 +26,8 @@
 		<Status>done</Status>
 		<Complete>2019-08-26</Complete>
 	</Task>
-		<Task>
-	    <id>4</id>
+	<Task>
+		<id>4</id>
 		<caption>Заголовок задачи</caption>
 		<Description>Описание задачи</Description>
 		<Priority>100</Priority>
